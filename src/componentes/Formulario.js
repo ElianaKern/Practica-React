@@ -28,12 +28,12 @@ const Formulario = () => {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Ingresa una URL
+        Ingresa una URL de la imagen de tu Gato
         <input onChange={handleChangeUrl} type="text" name="url"></input>
         {/* http://placekitten.com/300/300 */}
       </label>
       <label>
-        Selecciona el Color de Pelo
+        Selecciona el Color de Pelo de tu Gato
         <select onChange={handleChangeSelect}>
           <option value="amarillo">Amarillo</option>
           <option value="blanco">Blanco</option>
